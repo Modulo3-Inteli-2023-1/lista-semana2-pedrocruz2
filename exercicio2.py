@@ -1,26 +1,2 @@
-#  Se achar necessario, faça import de outras bibliotecas
-
-
-
-
-
-# Crie a função que será avaliada no exercício aqui
-
-
-
-
-
-
-
-# Teste a sua função aqui (caso ache necessário)
-
-
-
-
-
-
-
-
-
-
-
+def is_anagram(x: str, y: str) -> bool: # Pedro Henrique de Azeredo Coutinho Cruz
+    return sorted(x) == sorted(y)

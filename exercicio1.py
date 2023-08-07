@@ -1,26 +1,10 @@
-#  Se achar necessario, faça import de outras bibliotecas
-
-
-
-
-
-# Crie a função que será avaliada no exercício aqui
-
-
-
-
-
-
-
-# Teste a sua função aqui (caso ache necessário)
-
-
-
-
-
-
-
-
-
-
-
+def conta_palavras_unicas(x: str): # Pedro Henrique de Azeredo Coutinho Cruz
+    palavras = x.split()  
+    palavras_unicas = set(palavras)
+    return len(palavras_unicas)
+def conta_palavras_unicas2(str:str) -> int: return len(set(str.split()))
+print(conta_palavras_unicas('o rato roeu a roupa do rei de roma'))
+print(conta_palavras_unicas('são são são eu sou o pedro xd, 1'))
+print(conta_palavras_unicas('a a a aa a a a a'))
+print(conta_palavras_unicas('poxa vida como eu amo ser brasileiro e viver no brasil'))
+print(conta_palavras_unicas('oi tudo bem bem bem tudo tudo'))
